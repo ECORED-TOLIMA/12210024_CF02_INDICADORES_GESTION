@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Construcción e implementación de indicadores de gestión',
+    Description:
+      'Este componente presenta el Cuadro de Mando Integral (CMI), también denominado Balanced Scorecard, como herramienta de gestión estratégica que alinea la visión organizacional con objetivos medibles. Se desarrollan sus fundamentos teóricos, perspectivas, mapa estratégico, relaciones causa-efecto, indicadores y mecanismos de seguimiento, destacando su aplicación sectorial, utilidad para la toma de decisiones e impacto en la mejora continua',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,68 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Cuadro de mando integral – Balanced Scorecard',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Origen y fundamentos del CMI',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Perspectivas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Mapa estratégico',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Relación causa-efecto',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Implementación del CMI',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Análisis, seguimiento y toma de decisiones',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Análisis de resultados',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tableros de control',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Identificación de desviaciones',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Planes de acción y mejora continua',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Indicadores estratégicos para la toma de decisiones',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
