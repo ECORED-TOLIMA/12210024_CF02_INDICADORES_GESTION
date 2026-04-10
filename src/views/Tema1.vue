@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Construcción e implementación de indicadores de gestión
+      h1 Cuadro de mando integral – <em>Balanced Scorecard</em>
     .row.justify-content-center.align-items-center.mb-3
       .col-10.col-lg-3.mb-3.mb-lg-0
         figure
@@ -297,22 +297,23 @@
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/Temas/tema1/img33.png', alt='Infografía de matriz RACI')
+                figcaption Fuente: Adaptado de Función Pública (2018)
                 
 
             .tarjeta.color-acento-contenido.p-3(x="55%" y="23%" numero="+")
-              p Sistema de seguimiento a metas de gobierno como una herramienta del trabajo interinstitucional y de información y de información general en línea paraprogramación, gestión y monitoreo de los resultados de los principales programas de acción de gobierno.
+              p Sistema de seguimiento a metas de gobierno como una herramienta del trabajo interinstitucional y de información gerencial en línea para la programación, gestión y monitoreo de los resultados de los principales programas de acción de gobierno.
 
             .tarjeta.color-secundario.p-3(x="58%" y="35%" numero="+")
-              p Quien responde por el resultado final. Solo puede haber uno por acción. Aprueba el trabajo del Responsible y rinde cuentas ante la dirección.
+              p Establecer mediciones que permitan trasladar la misión y la visión a aspectos cuantificables, teniendo en cuenta las tipologías de indicadores, pero así poder monitorear ye valuar su cumplimiento.
             
             .tarjeta.color-acento-contenido.p-3(x="62%" y="49%" numero="+")
-              p Quien responde por el resultado final. Solo puede haber uno por acción. Aprueba el trabajo del Responsible y rinde cuentas ante la dirección.
+              p La formulación de estos, debe ir acompañado de indicadores que sean mesurables, alcanzables, pertinentes y con plazos determinados; estos pueden ser susceptibles de desagregarse en objetivos por área a dependencia de la entidad.
 
             .tarjeta.color-secundario.p-3(x="66%" y="63%" numero="+")
-              p A quien se consulta antes o durante la ejecución. Provee criterios especializados. Comunicación bidireccional.
+              p Se establecen a fin de verificar el cumplimiento de objetivos y metas así como el alcance de los resultados propuestos e inducir ajustes a metas o trayectorias de implementación (evaluación del desempeño institucional).
             
             .tarjeta.color-acento-contenido.p-3(x="70%" y="76%" numero="+")
-              p A quien se informa del avance y resultados. Comunicación unidireccional. No participa en la ejecución.
+              p Los indicadores no están ligados directamente a la misión, pero son necesarios para medir el cumplimiento o al buen fin de la operación.
         .d-block.d-lg-none
           figure
             img(src='@/assets/curso/Temas/tema1/img33_1.svg', alt='Matriz RACI para dispositivos móviles')
@@ -338,7 +339,7 @@
           p(numero="3" titulo="Definición de las prioridades estratégicas") Las prioridades estratégicas son los objetivos de más alto nivel de la organización. Generalmente se identifican tres: servir mejor a los clientes, mejorar las operaciones y fortalecer el producto o servicio ofrecido, articulando así el conjunto de la estrategia organizacional.
           p(numero="4" titulo="Definición de los objetivos de negocio") Cada perspectiva se completa con objetivos estratégicos concretos que guardan una relación de causa-efecto entre sí. Los objetivos de las perspectivas inferiores explican cómo se proyecta alcanzar los de las perspectivas superiores, siguiendo una lógica de arriba hacia abajo.
           p(numero="5" titulo="Descripción del razonamiento") El razonamiento corresponde al conjunto de argumentos que justifican la elección de cada objetivo estratégico. Su registro permite comprender el porqué de las decisiones adoptadas y, en caso de utilizar #[i software] de automatización, estas razones se consignan en el campo de descripción del objetivo.
-          p(numero="6" titulo="Definición de métricas de actuación y de resultad") Se diseñan los instrumentos de medición, se implementan y se constatan sus resultados con valores de referencia y un valor objetivo definido. La medición se realiza a través de indicadores de gestión o de desempeño, los cuales constituyen el soporte cuantitativo del mapa estratégico.
+          p(numero="6" titulo="Definición de métricas de actuación y de resultado") Se diseñan los instrumentos de medición, se implementan y se constatan sus resultados con valores de referencia y un valor objetivo definido. La medición se realiza a través de indicadores de gestión o de desempeño, los cuales constituyen el soporte cuantitativo del mapa estratégico.
           p(numero="7" titulo="Definición de iniciativas") Las iniciativas son los planes de acción de alto nivel que detallan cómo se ejecutará la estrategia organizacional. Traducen los objetivos en acciones concretas con responsables, recursos y plazos definidos, constituyendo uno de los propósitos centrales del mapa estratégico.
           p(numero="8" titulo="Cascada estratégica") La organización debe contar con una única estrategia de nivel superior que se desagrega en niveles inferiores con objetivos e indicadores cada vez más específicos. Este proceso garantiza la operacionalización del mapa estratégico en todos los niveles jerárquicos de la organización.
       .col-7.col-lg-3.d-none.d-lg-block
@@ -587,11 +588,11 @@
           ImagenInfografica.color-primario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/Temas/tema1/img56.png', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/Temas/tema1/img56.svg', alt='Infografía de matriz RACI')
                 figcaption Fuente: adaptado de Ghiglione (2021, p. 92)
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/Temas/tema1/img56_1.png', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/Temas/tema1/img56_1.svg', alt='Matriz RACI para dispositivos móviles')
             figcaption Fuente: adaptado de Ghiglione (2021, p. 92)
     
     .tarjeta.color-acento-botones.BG00.p-3.mb-3(data-aos="fade-right")

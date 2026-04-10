@@ -140,7 +140,7 @@
         .tarjeta.p-4(style="background-color: #283760; border-radius: 0 0 20px 20px;")
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
-              texto="Pódcast"
+              texto="Los tableros de control como herramienta de decisión"
               :audio="require('@/assets/curso/Temas/audio/Podcast.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -822,64 +822,66 @@
                     img(src="@/assets/curso/Temas/tema2/img53.png" alt="Icono rendimiento")
                 .col-12.col-md-11
                   p.mb-0 La implementación de indicadores estratégicos debe ir acompañada de un proceso de comunicación organizacional que garantice que todos los colaboradores conozcan las metas, comprendan los indicadores que las miden y sepan cómo sus acciones contribuyen al logro de los objetivos estratégicos. Para fortalecer este proceso de comunicación e implementación, se recomiendan las siguientes prácticas organizacionales:
-    .row.justify-content-center.align-items-stretch
-      //- Tarjeta 1
-      .col-lg-4.col-md-6.mb-4
-        .BGTAR01.p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/Temas/tema2/img54.svg', alt='Icono')
-          p.mb-0 Realizar sesiones periódicas de socialización de resultados con todos los niveles de la organización. 
+        .row.justify-content-center.align-items-stretch
+          //- Tarjeta 1
+          .col-lg-4.col-md-6.mb-4
+            .BGTAR01.p-4.h-100
+              .row.mb-3
+                .col-3
+                  figure
+                    img(src='@/assets/curso/Temas/tema2/img54.svg', alt='Icono')
+              p.mb-0 Realizar sesiones periódicas de socialización de resultados con todos los niveles de la organización. 
 
-      //- Tarjeta 2
-      .col-lg-4.col-md-6.mb-4
-        .BGTAR01.p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/Temas/tema2/img55.svg', alt='Icono')
-          p.mb-0 Diseñar tableros de control accesibles y comprensibles para los equipos operativos y directivos. 
+          //- Tarjeta 2
+          .col-lg-4.col-md-6.mb-4
+            .BGTAR01.p-4.h-100
+              .row.mb-3
+                .col-3
+                  figure
+                    img(src='@/assets/curso/Temas/tema2/img55.svg', alt='Icono')
+              p.mb-0 Diseñar tableros de control accesibles y comprensibles para los equipos operativos y directivos. 
 
-      //- Tarjeta 3
-      .col-lg-4.col-md-6.mb-4
-        .BGTAR01.p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/Temas/tema2/img56.svg', alt='Icono')
-          p Establecer reuniones de seguimiento con frecuencia mensual o trimestral para revisar el avance de los indicadores. 
+          //- Tarjeta 3
+          .col-lg-4.col-md-6.mb-4
+            .BGTAR01.p-4.h-100
+              .row.mb-3
+                .col-3
+                  figure
+                    img(src='@/assets/curso/Temas/tema2/img56.svg', alt='Icono')
+              p Establecer reuniones de seguimiento con frecuencia mensual o trimestral para revisar el avance de los indicadores. 
 
-      //- Tarjeta 4
-      .col-lg-4.col-md-6.mb-4
-        .BGTAR01.p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/Temas/tema2/img57.svg', alt='Icono')
-          p.mb-0 Documentar las lecciones aprendidas de cada ciclo de evaluación para mejorar la formulación de indicadores futuros.
+          //- Tarjeta 4
+          .col-lg-4.col-md-6.mb-4
+            .BGTAR01.p-4.h-100
+              .row.mb-3
+                .col-3
+                  figure
+                    img(src='@/assets/curso/Temas/tema2/img57.svg', alt='Icono')
+              p.mb-0 Documentar las lecciones aprendidas de cada ciclo de evaluación para mejorar la formulación de indicadores futuros.
 
-      //- Tarjeta 5
-      .col-lg-4.col-md-6.mb-4
-        .BGTAR01.p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/Temas/tema2/img58.svg', alt='Icono')
-          p.mb-0 Incorporar la revisión de indicadores como parte de la agenda regular de los comités directivos. 
+          //- Tarjeta 5
+          .col-lg-4.col-md-6.mb-4
+            .BGTAR01.p-4.h-100
+              .row.mb-3
+                .col-3
+                  figure
+                    img(src='@/assets/curso/Temas/tema2/img58.svg', alt='Icono')
+              p.mb-0 Incorporar la revisión de indicadores como parte de la agenda regular de los comités directivos. 
 
-      //- Tarjeta 6
-      .col-lg-4.col-md-6.mb-4
-        .BGTAR01.p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/Temas/tema2/img59.svg', alt='Icono')
-          p.mb-0 Articular los resultados de los indicadores con los procesos de reconocimiento y desarrollo del talento humano.
-  .col-lg-3.col-4.order-1.order-lg-2.mb-4.mb-lg-0
-    figure
-      img(src='@/assets/curso/Temas/tema2/img60.png', alt='Icono')     
-    
+          //- Tarjeta 6
+          .col-lg-4.col-md-6.mb-4
+            .BGTAR01.p-4.h-100
+              .row.mb-3
+                .col-3
+                  figure
+                    img(src='@/assets/curso/Temas/tema2/img59.svg', alt='Icono')
+              p.mb-0 Articular los resultados de los indicadores con los procesos de reconocimiento y desarrollo del talento humano.
+      .col-lg-3.col-4.order-1.order-lg-2.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/Temas/tema2/img60.png', alt='Icono')     
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Los indicadores estratégicos constituyen, en última instancia, el lenguaje común a través del cual la organización evalúa su desempeño comunica sus avances y toma decisiones informadas. Su correcta formulación, seguimiento y análisis es lo que permite que el Cuadro de Mando Integral trascienda el nivel conceptual y se convierta en una herramienta viva de gestión estratégica, capaz de orientar a la organización hacia el logro sostenible de sus objetivos en un entorno de constante cambio y alta complejidad.
     
 
 </template>

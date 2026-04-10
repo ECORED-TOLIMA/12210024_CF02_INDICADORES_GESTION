@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Cuadro de mando integral – Balanced Scorecard',
+        titulo: 'Cuadro de mando integral – <em>Balanced Scorecard</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -119,11 +119,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -155,14 +150,91 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Activos intangibles',
+      significado:
+        'recursos de valor propiedad de una empresa que carecen de sustancia física, inmateriales o incorporales.',
+    },
+    {
+      termino: 'Análisis PEST',
+      significado:
+        'herramienta de planeación estratégica utilizada para evaluar el impacto de factores externos en una empresa: políticos, económicos, sociales y tecnológicos.',
+    },
+    {
+      termino: 'Balanced ScoreCard',
+      significado:
+        'conocido también como Cuadro de Mando Integral (CMI). Es una herramienta de gestión estratégica que traduce la visión y misión de una empresa en objetivos concretos, indicadores, metas e iniciativas.',
+    },
+    {
+      termino: 'Cadena de valor',
+      significado:
+        'modelo estratégico que desglosa las actividades de una organización para entender cómo crean valor, optimizar costos y se obtiene la ventaja competitiva.',
+    },
+    {
+      termino: 'Desviaciones',
+      significado:
+        'en el contexto de Cuadro de Mando Integral (CMI) es la diferentes entre metas esperadas y desempeño real.',
+    },
+    {
+      termino: 'Perspectiva',
+      significado:
+        'son los cuatro enfoques o puntos de vista fundamentales desde los cuales se mide el desempeño estratégico de una empresa: financiera, cliente, procesos internos, y aprendizaje y crecimiento.',
+    },
+    {
+      termino: 'Propuesta de valor',
+      significado:
+        'es una promesa esencial que diseña una empresa con el fin de conectar emocionalmente con su cliente potencial y real, comunica un valor tangible, no solo características.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Función Pública. (2018). Guía para la construcción y análisis de indicadores de gestión (4.ª ed.).',
       link: '',
+    },
+    {
+      referencia:
+        'Ghiglione, F. A. (2021). El Cuadro de Mando Integral como herramienta de eficiencia en la gestión empresarial. Ciencias Administrativas, 9(18), 88–96.',
+      link: 'https://doi.org/10.24215/23143738e088',
+    },
+    {
+      referencia:
+        'Montes Soriano, E. B. (2016). Definición, desarrollo e implementación de un Cuadro de Mando Integral para el control de la gestión estratégica de una empresa constructora en El Salvador. Universidad Politécnica de Valencia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Páez, F. (2017). El Cuadro de Mando Integral (IV): Los planes de acción. CMI Gestión.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kaplan, R. S. y Norton, D. P. (2001). Strategy-focused organization: How balanced scorecard companies thrive in the new business environment. Harvard Business School Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Savkín, A. (2019). Aprendiendo del mapa estratégico Tesco y del Cuadro de Mando. BSC Designer.',
+      link: '',
+    },
+    {
+      referencia:
+        'SENA. Ecosistema de Recursos Educativos Digitales. (2023). Balanced Scorecard o Cuadro de Mando Integral [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=MR87o2CxGy0',
+    },
+    {
+      referencia:
+        'SENA. Ecosistema de Recursos Educativos Digitales. (2023). Clasificación de indicadores en la gestión de las empresas [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=RhvHUVVLaBg&t=7s',
+    },
+    {
+      referencia:
+        'SENA. Ecosistema de Recursos Educativos Digitales. (2023). Indicadores de gestión (KPI) [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=nCUYv5oPwJY',
+    },
+    {
+      referencia:
+        'SENA. Ecosistema de Recursos Educativos Digitales. (2023). La validación de la información y diseño de indicadores de gestión [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=_pcuK2pm1UM',
     },
   ],
   creditos: [
@@ -170,14 +242,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Diana Rocío Possos Beltrán',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -185,9 +258,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suárez ',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -195,19 +273,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Veimar Celis Meléndez',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Desarrollador <em>full stack</em>',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -215,14 +293,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'María Fernanda Pineda Mora',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
