@@ -45,14 +45,11 @@ figcaption
 .cajon.color-acento-botones.p-4.col
   background-color: #E9EAEF
 
-.tarjeta.BG04
+.tarjeta.BG05
   background-color: #FCAE57
 
 .cajon.color.p-4.col
   background-color: #FEE7CC
-
-.row.justify-content-center.align-items-center.mb-5
-  background-color: #FFF7EE
 
 .row.justify-content-center.align-items-center.mb-5.color
   background-color: #DEEAF1
@@ -108,9 +105,13 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
   background-color: #E9EAEF
 .tarjeta.BG02
   background-color: #DEEAF1
+.BG02
+  background-color: #DEEAF1
 .tarjeta.BG03
   background-color: #FEE7CC
-.tarjeta.color-primario.p-4.h-100
+.tarjeta.BG04
+  background-color: #BEC2CF
+.BGTAR01
   background-color: #DEEAF1
   h4, p
     color: $texto-negro !important
@@ -172,6 +173,11 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
   &.acordion__activo
     background-color: #DEEAF1 // El tono azulado grisáceo que se ve en el primer ítem abierto
 
+.tarjeta.color-acento-botones--borde 
+  background-color: #DEEAF1
+  color: #12263F
+  border: solid 4px #DEEAF1
+
 .acordion
   .acordion__header
     h3
@@ -180,6 +186,10 @@ $azul-fondo-tarjeta: #DEE9F0 // Tono azul grisáceo de la imagen
     
   // Personalización del botón (el círculo con la flecha)
   .acordion__accion__btn--a
+    background-color: $verde-boton !important
+    border: none
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1)
+  .acordion__accion__btn--b
     background-color: $verde-boton !important
     border: none
     box-shadow: 0px 2px 4px rgba(0,0,0,0.1)
@@ -241,37 +251,16 @@ $crema-encabezado: #FEE3C4
 $crema-lateral: #FEEFD2
 $borde-tabla: #E1E1E1
 
-.tabla-a.color-acento-contenido
-  table
-    border: none
-  
-  // Clase para el bloque principal "Matriz FODA"
-  .bg-naranja
-    background-color: $naranja-foda !important
-    border: 1px solid $borde-tabla
-    color: #12263F !important
-    font-weight: 900
+.tabla-a thead
+  border-color: rgb(252, 174, 87)
+  background-color: #FEE7CC
+.bg-estado-rojo
+  background-color:#FACFCF
+.bg-estado-amarillo
+  background-color:#FFFBC1
+.bg-estado-verde
+  background-color:#E4FFC9
 
-  // Clase para los encabezados superiores (Factores internos)
-  .bg-crema-oscuro
-    background-color: $crema-encabezado !important
-    border: 1px solid $borde-tabla
-    color: #12263F
-
-  // Clase para la columna izquierda (Factores externos)
-  .bg-crema-claro
-    background-color: $crema-lateral !important
-    border: 1px solid $borde-tabla
-    color: #12263F
-
-  .bg-white
-    background-color: #FFFFFF !important
-    border: 1px solid $borde-tabla
-    color: #12263F
-
-  td, th
-    padding: 20px !important
-    vertical-align: middle
 $verde-claro-tabs: #E8F5D2
 $verde-activo-tabs: #B1EC6F
 $azul-borde-tabs: #12263F
@@ -348,10 +337,10 @@ $azul-borde-tabs: #12263F
 .color-acento-botones-suave
   background-color: #F9E6B3 !important 
 
-//.tarjeta--boton.color-primario
-//  background-color: #E7F9D3
+.tarjeta.BG00
+  background-color: #E7F9D3
 //  &:hover
-//    background-color: #E9EAEF !important
+//    background-color: #05114e !important
 //    color: black !important
 
 .tarjeta--container
@@ -413,7 +402,8 @@ $azul-fondo-slyder: #12263F
     margin-inline: -1.5rem !important
   figure
     z-index: -1 !important
-  
+.BGSLYDER
+  background-image: url("../assets/curso/Temas/tema1/img7.png")
 .tarjeta--fondo3
   //background-image: url("../assets/curso/Temas/tema2/fondo3.png")
   background-size: cover
@@ -446,3 +436,45 @@ $azul-fondo-slyder: #12263F
     margin-inline: -1.5rem !important
   figure
     z-index: -1 !important
+.tarjeta--fondo6
+  background-image: url("../assets/curso/Temas/tema2/fondobgslyf.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+.fa-chevron-right, .fa-chevron-left
+  color: $verde-botones !important
+
+.imagen-container
+  margin: -24px
+
+.text-container
+  margin-left: 20px
+
+// versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .tabla-a table
+    min-width: 0px
+  .desktop 
+    display: none
+@media (max-width: 1024px)
+  .movil 
+    display: inline
+  .tabla-a table
+    min-width: 0px
+  .desktop 
+    display: none

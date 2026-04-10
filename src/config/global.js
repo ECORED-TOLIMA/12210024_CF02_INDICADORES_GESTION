@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Construcción e implementación de indicadores de gestión',
     Description:
-      'Este componente presenta el Cuadro de Mando Integral (CMI), también denominado Balanced Scorecard, como herramienta de gestión estratégica que alinea la visión organizacional con objetivos medibles. Se desarrollan sus fundamentos teóricos, perspectivas, mapa estratégico, relaciones causa-efecto, indicadores y mecanismos de seguimiento, destacando su aplicación sectorial, utilidad para la toma de decisiones e impacto en la mejora continua',
+      'Este componente presenta el Cuadro de Mando Integral (CMI), también denominado Balanced Scorecard, como herramienta de gestión estratégica que alinea la visión organizacional con objetivos medibles. Se desarrollan sus fundamentos teóricos, perspectivas, mapa estratégico, relaciones causa-efecto, indicadores y mecanismos de seguimiento, destacando su aplicación sectorial, utilidad para la toma de decisiones e impacto en la mejora continua.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
