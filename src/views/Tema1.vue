@@ -290,7 +290,11 @@
             .col-11.col-md-11
               p.mb-0 La aplicación de estos ocho pasos permite construir un mapa estratégico claro, coherente y visualmente comprensible para todos los niveles de la organización. Su fortaleza radica en que no solo comunica la estrategia, sino que la hace accionable al vincular cada objetivo con indicadores medibles y planes de acción específicos (Savkín, 2019). 
     p.mb-4 La estructura piramidal que se presenta en el siguiente recurso, define el tipo de evaluación y los indicadores asociados según los niveles jerárquicos de una organización. Cada nivel cumple una función específica dentro del sistema de seguimiento y medición del desempeño institucional, permitiendo comprender cómo los indicadores se articulan desde los grandes propósitos estratégicos hasta la operación diaria de cada área.
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        p.text-center.h5 Definición del tipo de evaluación y los indicadores asociados
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .d-none.d-lg-block
           ImagenInfografica.color-acento-botones
@@ -384,7 +388,7 @@
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/Temas/tema1/img42.png' alt='AvatarTop')
-          .tarjeta.color-primario.shadow
+          .tarjeta.color-primario
             .p-4
               .row.justify-content-center.mb-3
                 .col-auto
@@ -394,7 +398,7 @@
       .col-10.col-md-6.col-lg-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/Temas/tema1/img43.png' alt='AvatarTop')
-          .tarjeta.color-primario.shadow
+          .tarjeta.color-primario
             .p-4
               .row.justify-content-center.mb-3
                 .col-auto
@@ -490,7 +494,7 @@
             figure
               img(src='@/assets/curso/Temas/tema1/img47.png', alt='Icono Control Preventivo')
         h4.text-center.text-white Lógica de sucesión
-        p.text-white El aprendizaje y la tecnología mejoran los procesos internos, lo que genera satisfacción en el cliente y resulta, finalmente, en un mejor rendimiento financiero. Esta secuencia lógica garantiza que cada acción estratégica tenga un impacto verificable en la perspectiva superior.
+        p.text-center.text-white El aprendizaje y la tecnología mejoran los procesos internos, lo que genera satisfacción en el cliente y resulta, finalmente, en un mejor rendimiento financiero. Esta secuencia lógica garantiza que cada acción estratégica tenga un impacto verificable en la perspectiva superior.
 
       .col-md.tarjeta.color-primario-suave.p-5
         .row.justify-content-center.mb-4
@@ -498,7 +502,7 @@
             figure
               img(src='@/assets/curso/Temas/tema1/img48.png', alt='Icono Control Directivo')
         h4.text-center Mapa estratégico
-        p Esta relación se visualiza en el mapa estratégico, que permite rastrear y medir cómo los indicadores de actuación o causas impulsan los resultados o efectos, facilitando la comprensión de la estrategia en todos los niveles de la organización (Savkín, 2019).
+        p.text-center Esta relación se visualiza en el mapa estratégico, que permite rastrear y medir cómo los indicadores de actuación o causas impulsan los resultados o efectos, facilitando la comprensión de la estrategia en todos los niveles de la organización (Savkín, 2019).
 
       .col-md.tarjeta.color-acento-contenido-suave.p-5
         .row.justify-content-center.mb-4
@@ -506,7 +510,7 @@
             figure
               img(src='@/assets/curso/Temas/tema1/img49.png', alt='Icono Control In Situ')
         h4.text-center Validación de estrategia
-        p Permite identificar si las hipótesis estratégicas son correctas, ayudando a detectar y modificar relaciones equivocadas entre los objetivos, lo que garantiza la coherencia entre la planeación y los resultados obtenidos (Función Pública, 2018).
+        p.text-center Permite identificar si las hipótesis estratégicas son correctas, ayudando a detectar y modificar relaciones equivocadas entre los objetivos, lo que garantiza la coherencia entre la planeación y los resultados obtenidos (Función Pública, 2018).
     p.mb-4 La aplicación de la relación causa-efecto convierte al CMI en un sistema dinámico y no en un simple instrumento de registro de datos. Cuando se identifican desviaciones entre los resultados esperados y los obtenidos, la organización puede rastrear la causa raíz en la perspectiva correspondiente y adoptar acciones correctivas oportunas. Este enfoque proactivo es lo que diferencia al modelo de los sistemas tradicionales de evaluación del desempeño.
     
     .row.justify-content-center.align-items-center.mb-5
@@ -578,7 +582,7 @@
               figure
                 img(src="@/assets/curso/Temas/tema1/img55.png" alt="Adornos flotantes")
             .col-11.col-md-11
-              p.mb-0 Una vez concluidas las cinco fases de implementación, el mapa estratégico permite visualizar de manera integral cómo se articulan los objetivos de cada perspectiva del CMI y cómo las acciones de los niveles inferiores impulsan los resultados de los niveles superiores. La figura 2 ilustra esta estructura de relaciones causa-efecto que fundamenta el modelo:
+              p.mb-0 Una vez concluidas las cinco fases de implementación, el mapa estratégico permite visualizar de manera integral cómo se articulan los objetivos de cada perspectiva del CMI y cómo las acciones de los niveles inferiores impulsan los resultados de los niveles superiores. La figura 1 ilustra esta estructura de relaciones causa-efecto que fundamenta el modelo:
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5

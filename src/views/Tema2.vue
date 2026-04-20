@@ -693,7 +693,7 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img45.png', alt='Icono Control Preventivo')
         h4.text-center.text-white Perspectiva financiera
-        p.text-white Evalúa el éxito económico de la organización y mide el impacto financiero de las decisiones estratégicas adoptadas en las demás perspectivas.
+        p.text-center.text-white Evalúa el éxito económico de la organización y mide el impacto financiero de las decisiones estratégicas adoptadas en las demás perspectivas.
 
       .col-md.tarjeta.color-primario-suave.p-5
         .row.justify-content-center.mb-4
@@ -701,7 +701,7 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img46.png', alt='Icono Control Directivo')
         h4.text-center Perspectiva del cliente
-        p Mide la satisfacción y el posicionamiento de la organización en el mercado, reflejando la percepción del cliente sobre la propuesta de valor ofrecida.
+        p.text-center Mide la satisfacción y el posicionamiento de la organización en el mercado, reflejando la percepción del cliente sobre la propuesta de valor ofrecida.
 
       .col-md.tarjeta.color-acento-contenido-suave.p-5
         .row.justify-content-center.mb-4
@@ -709,7 +709,7 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img47.png', alt='Icono Control In Situ')
         h4.text-center Perspectiva de procesos internos
-        p Optimiza la cadena de valor y la operatividad de la organización, evaluando la capacidad de los procesos internos para generar valor de manera eficiente. 
+        p.text-center Optimiza la cadena de valor y la operatividad de la organización, evaluando la capacidad de los procesos internos para generar valor de manera eficiente. 
 
       .col-md.tarjeta.color-acento-botones-suave.p-5
         .row.justify-content-center.mb-4
@@ -717,7 +717,7 @@
             figure
               img(src='@/assets/curso/Temas/tema2/img48.png', alt='Icono Control Posterior')
         h4.text-center Perspectiva de aprendizaje y crecimiento
-        p Mide la capacidad de innovación y el desarrollo del capital humano, evaluando los activos intangibles que sostienen la competitividad organizacional a largo plazo.
+        p.text-center Mide la capacidad de innovación y el desarrollo del capital humano, evaluando los activos intangibles que sostienen la competitividad organizacional a largo plazo.
     p.mb-4 Cuando se diseñan y seleccionan indicadores acordes con el objetivo estratégico y su funcionamiento corresponde a los parámetros establecidos, estos instrumentos generan los siguientes beneficios para la toma de decisiones:
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-4.mb-lg-0
